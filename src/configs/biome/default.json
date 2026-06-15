@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.14/schema.json",
+  "$schema": "../../../node_modules/@biomejs/biome/configuration_schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -12,7 +12,7 @@
   },
   "assist": {
     "actions": {
-      "source": { "organizeImports": "on" }
+      "source": { "organizeImports": "on", "useSortedPackageJson": "on" }
     }
   },
   "linter": {
@@ -22,7 +22,8 @@
         "noNonNullAssertion": "error",
         "useConst": "error"
       },
-      "suspicious": { "noExplicitAny": "error", "noVar": "error" }
+      "suspicious": { "noExplicitAny": "error", "noVar": "error" },
+      "nursery": { "noRestrictedDependencies": "error" }
     }
   },
   "html": {

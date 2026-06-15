@@ -12,6 +12,7 @@ export default defineConfig({
     customExports(pkg) {
       return Object.assign(pkg, {
         "./biome": "./dist/biome/default.json",
+        "./biome/tailwind": "./dist/biome/tailwind.json",
         "./oxlint/ts": "./dist/oxlint/typeaware.mjs",
         "./ts": "./dist/tsconfig/default.json",
         "./ts/isolated": "./dist/tsconfig/isolated.json",
