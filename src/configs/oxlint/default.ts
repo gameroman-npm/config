@@ -6,6 +6,7 @@ const config: OxlintConfig = {
     "no-explicit-any": "error",
     "no-this-alias": "error",
     "no-unused-vars": "error",
+    "no-useless-rename": "error",
     "no-var": "error",
     "prefer-const": "error",
     "prefer-node-protocol": "error",

@@ -28,7 +28,12 @@
         "noRestrictedDependencies": "error",
         "useReactFunctionComponentDefinition": "error"
       },
-      "complexity": { "noUselessThisAlias": "error" }
+      "complexity": {
+        "noUselessThisAlias": "error",
+        "noUselessRename": "error",
+        "useOptionalChain": "error"
+      },
+      "correctness": { "noUnusedVariables": "error" }
     }
   },
   "html": {
