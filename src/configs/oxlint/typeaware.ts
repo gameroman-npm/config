@@ -19,6 +19,7 @@ const config: OxlintConfig = extendDefaultConfig({
     ],
     "typescript/no-unnecessary-type-assertion": "error",
     "typescript/no-unnecessary-type-conversion": "error",
+    "typescript/prefer-optional-chain": "error",
   },
 });
 
