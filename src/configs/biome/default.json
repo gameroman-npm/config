@@ -21,7 +21,11 @@
         "useNodejsImportProtocol": "error",
         "noNonNullAssertion": "error",
         "useConst": "error",
-        "useTemplate": "error"
+        "useTemplate": "error",
+        "useImportType": {
+          "level": "error",
+          "options": { "style": "separatedType" }
+        }
       },
       "suspicious": { "noExplicitAny": "error", "noVar": "error" },
       "nursery": {
@@ -33,7 +37,10 @@
         "noUselessRename": "error",
         "useOptionalChain": "error"
       },
-      "correctness": { "noUnusedVariables": "error" }
+      "correctness": {
+        "noUnusedVariables": "error",
+        "noUnusedImports": "error"
+      }
     }
   },
   "html": {
