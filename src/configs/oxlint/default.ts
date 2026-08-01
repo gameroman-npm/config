@@ -2,12 +2,14 @@ import type { OxlintConfig } from "oxlint";
 
 const config: OxlintConfig = {
   rules: {
+    "logical-assignment-operators": "error",
     "no-eval": "error",
     "no-explicit-any": "error",
     "no-this-alias": "error",
     "no-unused-vars": "error",
     "no-useless-rename": "error",
     "no-var": "error",
+    "operator-assignment": "error",
     "prefer-const": "error",
     "prefer-node-protocol": "error",
     "prefer-template": "error",
