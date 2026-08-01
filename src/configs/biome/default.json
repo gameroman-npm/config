@@ -21,6 +21,7 @@
         "useNodejsImportProtocol": "error",
         "noNonNullAssertion": "error",
         "useConst": "error",
+        "useShorthandAssign": "error",
         "useTemplate": "error",
         "useImportType": {
           "level": "error",
