@@ -10,6 +10,7 @@ const config: OxlintConfig = {
     "no-useless-rename": "error",
     "no-var": "error",
     "operator-assignment": "error",
+    "oxc/only-used-in-recursion": "error",
     "prefer-const": "error",
     "prefer-node-protocol": "error",
     "prefer-template": "error",
