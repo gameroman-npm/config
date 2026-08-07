@@ -22,6 +22,8 @@
         "noNonNullAssertion": "error",
         "useConst": "error",
         "useShorthandAssign": "error",
+        "useCollapsedIf": "error",
+        "useCollapsedElseIf": "error",
         "useTemplate": "error",
         "useImportType": {
           "level": "error",
