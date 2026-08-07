@@ -5,6 +5,7 @@ const config: OxlintConfig = {
     "logical-assignment-operators": "error",
     "no-eval": "error",
     "no-explicit-any": "error",
+    "no-lonely-if": "error",
     "no-this-alias": "error",
     "no-unused-vars": "error",
     "no-useless-rename": "error",
@@ -14,6 +15,8 @@ const config: OxlintConfig = {
     "prefer-const": "error",
     "prefer-node-protocol": "error",
     "prefer-template": "error",
+    "unicorn/no-lonely-if": "error",
+    "unicorn/prefer-array-some": "error",
   },
 };
 
