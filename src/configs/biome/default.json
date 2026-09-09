@@ -28,12 +28,18 @@
         "useImportType": {
           "level": "error",
           "options": { "style": "separatedType" }
+        },
+        "useExportType": {
+          "level": "error",
+          "options": { "style": "separatedType" }
         }
       },
       "suspicious": { "noExplicitAny": "error", "noVar": "error" },
       "nursery": {
         "noRestrictedDependencies": "error",
-        "useReactFunctionComponentDefinition": "error"
+        "useReactFunctionComponentDefinition": "error",
+        "useModernMathApis": "error",
+        "noNonScalableViewport": "error"
       },
       "complexity": {
         "noUselessThisAlias": "error",
