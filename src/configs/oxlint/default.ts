@@ -17,6 +17,7 @@ const config: OxlintConfig = {
     "prefer-template": "error",
     "unicorn/no-lonely-if": "error",
     "unicorn/prefer-array-some": "error",
+    "unicorn/prefer-modern-math-apis": "error",
   },
 };
 
